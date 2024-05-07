@@ -1,0 +1,89 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering content on the page */
+center {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(236, 234, 234);
+    box-shadow: 0 0 10px rgba(197, 192, 192, 0.1);
+}
+.container {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #d6d3d5;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px rgba(180, 178, 178, 0.1);
+}
+
+
+/* Form styling */
+form {
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+select {
+    width: 80%;
+    padding: 14px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button.btn {
+    width: 50%;
+    background-color: #1545e4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.btn:hover {
+    background-color: #0b0ec9;
+}
+
+/* Table styling */
+table {
+    width: 90%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #303331;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Link styling */
+a {
+    color: #1310ca;
+    text-decoration: none;
+}
+h2{
+    color: #131212;
+}

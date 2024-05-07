@@ -1,0 +1,36 @@
+
+.container {
+    width: 20%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ebe2ea;
+    border-radius: 5px;
+    background-color: #eceaec;
+}
+
+.input-field {
+    width: calc(80% - 10px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+h2{
+    color: #111111;
+    text-align: center;
+}
